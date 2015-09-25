@@ -1,0 +1,15 @@
+1. The component is called codeChar it either encode or decode the 
+character passed to it depending on what encodeSign is.
+
+2. The interface of this program is that it first show what it can do and 
+then ask users to enter a line and then ask them for encode or decode key.
+After encode or decode, the console will print the result. The input of
+this function are the place of the character i, encodeSign, input srting
+str, and key string key. It gives back a single character.
+
+3.
+codeChar (0, 1, "a", "a") = "a"
+codeChar (2, 1, "abc", "d") = "f"
+codeChar (0, -1, "a", "b") = "z"
+codeChar (5, -1, "aasdfsd", "z") = "t"
+codeChar (2, 1, "ews", "x") = "p"

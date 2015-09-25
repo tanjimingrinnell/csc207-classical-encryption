@@ -1,0 +1,11 @@
+1. The component is inside a function called mod26, it mod a number by 26.
+
+2. It is a function so it does not have an interface. The inputs is an
+integer, the output is a integer that is moded by 26.
+
+3.
+mod26(7) = 7
+mod26(30) = 4
+mod26(-2) = 24
+mod26(-27) = 25
+mod26(-56) = 22
